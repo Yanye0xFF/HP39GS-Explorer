@@ -74,7 +74,16 @@
     * 最大支持图片大小 `65535*65535`
 * 其他功能
     * 在使用本程序时按下`ON`可快速关机，下次开机将会跳过主界面，直接进入本程序
+## 程序预览
 
+程序列表  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/explorer_aplet_list.jpg)  
+应用内文件列表  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/explorer_file_list.jpg)  
+图片浏览  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/explorer_image_view.jpg)  
+文本浏览  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/explorer_text_view.jpg)  
 ## BUG提交
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
