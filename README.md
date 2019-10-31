@@ -75,7 +75,7 @@
 * 其他功能
     * 在使用本程序时按下`ON`可快速关机，下次开机将会跳过主界面，直接进入本程序
 ## 程序预览
-
+(如果下列预览图无法正常显示，请连接至外网后刷新页面)
 程序列表  
 ![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/explorer_aplet_list.jpg)  
 应用内文件列表  
