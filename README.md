@@ -5,6 +5,15 @@
 
 图片浏览：图片格式为专有格式（需要使用配套的图片转换工具），由于HP39GS机能显示，转换后的图片仅支持黑白两色（暂不支持16灰度图片，这将导致文件大小大幅增长）。使用像素压缩模式，有效减小文件占用空间，压缩模式下典型值压缩率为0.7（与上一版类BMP格式相比）。
 
+## 文件目录概述
+1. release：安装于计算器的程序，HP39GS安装Explorer.bin，HP40/48安装Explorer.hp（LIB275L.lib ARM运行库都需要安装）。
+
+2. rom：hp39gs_v2.22_raw.bin 原版2.22固件；hp39gs_v2.22_update.bin 添加了GB2312-80字库固件，其他功能不受影响。
+
+3. src：程序源码。
+
+4. tools：HP39gsBitmapMaker.jar 图片转换工具，需安装64位jre，且仅支持64位系统。
+
 ## Explorer 如何安装？
 首先需要确认您已正确安装Conn3x_Chineseusbconnectkit及其HPCalculator_usb_driver，在win10下需要关闭驱动签名验证。
 ##### 更新中文字库固件
@@ -56,6 +65,18 @@
 1. 使用 `HP39gsBitmapMaker.jar ` 图片转换工具将PNG JPG BMP...转换成自有格式。
 
 2. 参照  `下载 文本文件 ` 的  `步骤5 ` -->  `步骤7 `
+
+转换工具主界面  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/conv_main.png)  
+第一步：打开图片文件   
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/conv_open.png)  
+图片打开状态  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/conv_step1.png)  
+第二步：转换  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/conv_step2.png)  
+第三步：存储(目标文件位于程序运行目录)  
+![aplet-list](https://raw.githubusercontent.com/Yanye0xFF/PictureBed/master/images/hp39explorer/conv_output.png) 
+
 ## Explorer 功能使用方法？
 
 * 文件列表
