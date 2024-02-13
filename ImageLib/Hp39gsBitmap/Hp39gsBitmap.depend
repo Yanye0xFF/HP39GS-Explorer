@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1559018927 source:e:\cppprojects\hp39gsbitmap\main.cpp
+	"main.h"
+	<stdlib.h>
+	<stdio.h>
+
+1559019213 e:\cppprojects\hp39gsbitmap\main.h
+	<windows.h>
+
